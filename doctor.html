@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cari Dokter</title>
+  <link rel="stylesheet" href="doctor.css">
+</head>
+<body>
+    <header>
+  <div class="logo">
+    <h1>Rumah Sakit Sejahtera</h1>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="/rumah_sakit/index.html">Beranda</a></li>
+      <li><a href="/rumah_sakit/doctor.html">Daftar Dokter</a></li>
+      <li><a href="#contact">Kontak</a></li>
+    </ul>
+  </nav>
+    </header>
+  <div class="container">
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <h3>Cari Dokter</h3>
+      <select>
+        <option>Minggu</option>
+      </select>
+
+      <h3>Rumah sakit</h3>
+      <label><input type="checkbox"> Semua Rumah Sakit</label>
+      <label><input type="checkbox"> RS Pondok Indah - Pondok Indah</label>
+      <label><input type="checkbox"> RS Pondok Indah - Puri Indah</label>
+      <label><input type="checkbox"> RS Pondok Indah - Bintaro Jaya</label>
+
+      <h3>Spesialisasi</h3>
+      <input type="text" placeholder="Pilih Spesialisasi">
+    </div>
+
+    <!-- Main content -->
+    <div class="main">
+      <h2>25 Dokter Ditemukan</h2>
+      <div class="search-bar">
+        <input type="text" placeholder="Nama Dokter">
+      </div>
+
+      <!-- Doctor card -->
+      <div class="doctor-card">
+        <div class="doctor-info">
+          <img src="https://i.pinimg.com/736x/4a/c4/f8/4ac4f86fc2ca05bf6db9a092ecc05b92.jpg" alt="dokter">
+          <div class="doctor-text">
+            <h4>dr. Onur Tuna, Sp. A</h4>
+            <p>Spesialis Anak</p>
+            <a href="#">Lihat Jadwal</a>
+          </div>
+        </div>
+        <button class="book-btn">Book Appointment →</button>
+      </div>
+
+      <div class="doctor-card">
+        <div class="doctor-info">
+          <img src="https://i.pinimg.com/736x/49/e7/5a/49e75ab385ff368875d8af9d58b17528.jpg" alt="dokter">
+          <div class="doctor-text">
+            <h4>Dr. dr. Alie Yafie, Sp. A, Subsp. I.P.T.</h4>
+            <p>Spesialis Anak Subspesialis Infeksi dan Penyakit Tropis</p>
+            <a href="#">Lihat Jadwal</a>
+          </div>
+        </div>
+        <button class="book-btn">Book Appointment →</button>
+      </div>
+
+      <div class="doctor-card">
+        <div class="doctor-info">
+          <img src="https://i.pinimg.com/736x/f2/75/21/f2752143d53dfa7e80e785b069734539.jpg" alt="dokter">
+          <div class="doctor-text">
+            <h4>Dr. drg. Marie Thomas, MARS, Sp. K.G, Subsp. K.E. (K)</h4>
+            <p>Spesialis Konservasi Gigi</p>
+            <a href="#">Lihat Jadwal</a>
+          </div>
+        </div>
+        <button class="book-btn">Book Appointment →</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

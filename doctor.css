@@ -1,0 +1,159 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo h1 {
+  margin-left: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  border-bottom: 2px solid #fff;
+}
+
+.container {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 250px;
+  background: #fff;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.sidebar h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.sidebar label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.sidebar input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.sidebar select,
+.sidebar input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+/* Main content */
+.main {
+  flex: 1;
+}
+
+.main h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.search-bar {
+  margin-bottom: 15px;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+/* Doctor card */
+.doctor-card {
+  background: #fff;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.doctor-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.doctor-info img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.doctor-text h4 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.doctor-text p {
+  margin: 3px 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.doctor-text a {
+  font-size: 14px;
+  color: #00796b;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.book-btn {
+  background: #fff;
+  border: 1px solid #00796b;
+  color: #00796b;
+  padding: 8px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.book-btn:hover {
+  background: #00796b;
+  color: #fff;
+}
